@@ -18,9 +18,11 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/leeco/msm8996-common/proprietary/bin/dun-server:system/bin/dun-server \
     vendor/leeco/msm8996-common/proprietary/bin/sigma_dut:system/bin/sigma_dut \
+    vendor/leeco/msm8996-common/proprietary/etc/UEISettings:system/etc/UEISettings \
     vendor/leeco/msm8996-common/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/leeco/msm8996-common/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/leeco/msm8996-common/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
+    vendor/leeco/msm8996-common/proprietary/etc/init.uei.sh:system/etc/init.uei.sh \
     vendor/leeco/msm8996-common/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
     vendor/leeco/msm8996-common/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/leeco/msm8996-common/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
@@ -484,7 +486,9 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libthermalclient \
     libloc_api_v02 \
+    LetvRemoteControl \
     QtiTelephonyService \
+    UEIQuicksetSDKLeTV \
     ims \
     uceShimService \
     CNEService \
