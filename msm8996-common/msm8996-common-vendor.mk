@@ -487,10 +487,12 @@ PRODUCT_PACKAGES += \
     ims \
     uceShimService \
     CNEService \
+    SmartcardService \
     com.qualcomm.location \
     dpmserviceapp \
     qcrilmsgtunnel \
-    TimeService
+    TimeService \
+    org.simalliance.openmobileapi
 PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/leeco/msm8996-common/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
