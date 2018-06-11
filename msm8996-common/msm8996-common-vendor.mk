@@ -514,6 +514,7 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     TimeService \
     QtiTelephonyServicelibrary \
+    org.simalliance.openmobileapi \
     qcrilhook \
     qti-telephony-common
 PRODUCT_COPY_FILES += \
