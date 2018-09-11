@@ -487,6 +487,7 @@ PRODUCT_PACKAGES += \
     ims \
     uceShimService \
     CNEService \
+    SmartcardService \
     com.qualcomm.location \
     dpmserviceapp \
     qcrilmsgtunnel \
