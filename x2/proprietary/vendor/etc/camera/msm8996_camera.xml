@@ -110,6 +110,31 @@ LensInfo : Information of the lens present in the module.
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
+ <CameraModuleConfig>
+    <CameraId>0</CameraId>
+    <SensorName>ov13870_rear</SensorName>
+    <ActuatorName>sa3103c</ActuatorName>
+    <EepromName>ov13870_letv</EepromName>
+    <FlashName>i2c</FlashName>
+    <ChromatixName>ov13870_rear_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>0</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>4.26</FocalLength>
+      <FNumber>2.0</FNumber>
+      <TotalFocusDistance>1.9</TotalFocusDistance>
+      <HorizontalViewAngle>67.5</HorizontalViewAngle>
+      <VerticalViewAngle>45.0</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+ </CameraModuleConfig>
   <CameraModuleConfig>
     <CameraId>0</CameraId>
     <SensorName>imx230</SensorName>
@@ -136,6 +161,55 @@ LensInfo : Information of the lens present in the module.
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
+ </CameraModuleConfig>
+ <CameraModuleConfig>
+    <CameraId>1</CameraId>
+    <SensorName>ov13870_front</SensorName>
+    <ActuatorName>dw9767b</ActuatorName>
+    <EepromName>ov13870_front_letv</EepromName>
+    <ChromatixName>ov13870_front_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>FRONT</Position>
+    <MountAngle>270</MountAngle>
+    <CSIInfo>
+      <CSIDCore>2</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>4.26</FocalLength>
+      <FNumber>2.0</FNumber>
+      <TotalFocusDistance>1.9</TotalFocusDistance>
+      <HorizontalViewAngle>60.0</HorizontalViewAngle>
+      <VerticalViewAngle>45.0</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+ </CameraModuleConfig> </CameraModuleConfig>
+ <CameraModuleConfig>
+    <CameraId>1</CameraId>
+    <SensorName>ov13870_front</SensorName>
+    <ActuatorName>dw9767b</ActuatorName>
+    <EepromName>ov13870_front_letv</EepromName>
+    <ChromatixName>ov13870_front_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>FRONT</Position>
+    <MountAngle>270</MountAngle>
+    <CSIInfo>
+      <CSIDCore>2</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>4.26</FocalLength>
+      <FNumber>2.0</FNumber>
+      <TotalFocusDistance>1.9</TotalFocusDistance>
+      <HorizontalViewAngle>60.0</HorizontalViewAngle>
+      <VerticalViewAngle>45.0</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+ </CameraModuleConfig>
   <CameraModuleConfig>
     <CameraId>0</CameraId>
     <SensorName>imx230_lg</SensorName>
@@ -160,6 +234,30 @@ LensInfo : Information of the lens present in the module.
       <HorizontalViewAngle>66.2</HorizontalViewAngle>
       <VerticalViewAngle>52.3</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+ </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>1</CameraId>
+    <SensorName>s5k3p3st_sunny</SensorName>
+    <EepromName>sunny_s5k3p3st</EepromName>
+    <ChromatixName>s5k3p3st_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>FRONT</Position>
+    <MountAngle>270</MountAngle>
+    <CSIInfo>
+      <CSIDCore>2</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>3.66</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>0.83</TotalFocusDistance>
+      <HorizontalViewAngle>65.32</HorizontalViewAngle>
+      <VerticalViewAngle>43.0</VerticalViewAngle>
+      <MinFocusDistance>0.47</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
   <CameraModuleConfig>
@@ -206,6 +304,55 @@ LensInfo : Information of the lens present in the module.
       <HorizontalViewAngle>69.6</HorizontalViewAngle>
       <VerticalViewAngle>43.0</VerticalViewAngle>
       <MinFocusDistance>0.47</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>2</CameraId>
+    <SensorName>ov13371_mono</SensorName>
+    <FlashName>i2c</FlashName>
+    <ActuatorName>sa3103m</ActuatorName>
+    <EepromName>ov13371_letv</EepromName>
+    <ChromatixName>ov13371_mono_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>4.26</FocalLength>
+      <FNumber>2.0</FNumber>
+      <TotalFocusDistance>1.9</TotalFocusDistance>
+      <HorizontalViewAngle>60.0</HorizontalViewAngle>
+      <VerticalViewAngle>45.0</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>3</CameraId>
+    <SensorName>ov13371_fusion</SensorName>
+    <ActuatorName>sa3103m</ActuatorName>
+    <EepromName>ov13371_letv</EepromName>
+    <ChromatixName>ov13371_fusion_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>4.26</FocalLength>
+      <FNumber>2.0</FNumber>
+      <TotalFocusDistance>1.9</TotalFocusDistance>
+      <HorizontalViewAngle>60.0</HorizontalViewAngle>
+      <VerticalViewAngle>45.0</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
 </CameraConfigurationRoot>

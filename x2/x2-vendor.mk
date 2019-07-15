@@ -139,7 +139,44 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib64/hw/fingerprint.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.qcom.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libmm-qdcm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-qdcm-diag.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libqfp-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp-service.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/qfp.wakeup.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qfp.wakeup.so
+    vendor/leeco/x2/proprietary/vendor/lib64/qfp.wakeup.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qfp.wakeup.so \
+    vendor/leeco/x2/proprietary/vendor/etc/ad_calib.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/ad_calib.cfg \
+	vendor/leeco/x2/proprietary/vendor/etc/ad_calib_turbo.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/ad_calib_turbo.cfg \
+	vendor/leeco/x2/proprietary/vendor/etc/camera/imx258_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_chromatix.xml \
+	vendor/leeco/x2/proprietary/vendor/etc/camera/imx318_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx318_chromatix.xml \
+	vendor/leeco/x2/proprietary/vendor/etc/camera/msm8996_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8996_camera.xml \
+	vendor/leeco/x2/proprietary/vendor/etc/camera/ov13371_fusion_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13371_fusion_chromatix.xml \
+	vendor/leeco/x2/proprietary/vendor/etc/camera/ov13371_mono_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13371_mono_chromatix.xml \
+	vendor/leeco/x2/proprietary/vendor/etc/camera/ov13870_front_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13870_front_chromatix.xml \
+	vendor/leeco/x2/proprietary/vendor/etc/camera/ov13870_rear_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13870_rear_chromatix.xml \
+	vendor/leeco/x2/proprietary/vendor/etc/camera/ov8865_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov8865_chromatix.xml \
+	vendor/leeco/x2/proprietary/vendor/etc/camera/ov8865_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov8865_ofilm_chromatix.xml \
+	vendor/leeco/x2/proprietary/vendor/etc/camera/s5k3p3st_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3st_chromatix.xml \
+	vendor/leeco/x2/proprietary/vendor/firmware/le_x10/a530_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/le_x10/a530_zap.b01 \
+	vendor/leeco/x2/proprietary/vendor/firmware/le_x10/a530_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/le_x10/a530_zap.elf \
+	vendor/leeco/x2/proprietary/vendor/firmware/le_x10/a530_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/le_x10/a530_zap.mdt \
+	vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx318_1080p_preview_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_1080p_preview_lc898212xd.so \
+	vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx318_1080p_video_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_1080p_video_lc898212xd.so \
+	vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx318_4k_preview_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_4k_preview_lc898212xd.so \
+	vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx318_4k_video_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_4k_video_lc898212xd.so \
+	vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx318_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_common.so \
+	vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx318_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_cpp_hfr_120.so \
+	vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx318_cpp_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_cpp_hfr_240.so \
+	vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx318_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_cpp_hfr_60.so \
+	vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx318_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_cpp_hfr_90.so \
+	vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx318_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_cpp_liveshot.so \
+	vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx318_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_cpp_preview.so \
+	vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx318_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_cpp_snapshot.so \
+	vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx318_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_cpp_snapshot_hdr.so \
+	vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx318_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_cpp_video.so \
+	vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx318_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_cpp_video_4k.so \
+	vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx318_cpp_video_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_cpp_video_hdr.so \
+	vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx318_default_preview_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_default_preview_lc898212xd.so \
+	vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx318_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_default_video.so \
+	vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx318_default_video_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_default_video_lc898212xd.so \
+	vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx318_fullsize_preview_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_fullsize_preview_lc898212xd.so \
+	vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx318_fullsize_video_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_fullsize_video_lc898212xd.so \
+	vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx318_hdr_snapshot_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_hdr_snapshot_lc898212xd.so
 
 PRODUCT_PACKAGES += \
     QFingerprintService
